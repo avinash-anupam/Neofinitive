@@ -25,7 +25,7 @@ a {
 
 h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
-  font-family: "Oswald", sans-serif; }
+  font-family: "Times New Roman", sans-serif; }
 
 .border-2 {
   border-width: 2px; }
@@ -212,7 +212,7 @@ h1, h2, h3, h4, h5,
       left: 0;
       font-size: 20px;
       top: -.3rem;
-      font-family: "icomoon";
+      font-family: "Arial";
       content: "\e5ca";
       position: absolute; }
   .ul-check.white li:before {
@@ -220,7 +220,7 @@ h1, h2, h3, h4, h5,
   .ul-check.success li:before {
     color: #8bc34a; }
   .ul-check.primary li:before {
-    color: #bf00ff; }
+    color: #990000; }
 
 .select-wrap, .wrap-icon {
   position: relative; }
@@ -240,7 +240,7 @@ h1, h2, h3, h4, h5,
 
 /* Navbar */
 .site-navbar {
-  font-family: "Oswald", sans-serif;
+  font-family: "Times New Roman", sans-serif;
   margin-bottom: 0px;
   z-index: 1999;
   width: 100%; }
@@ -333,7 +333,7 @@ h1, h2, h3, h4, h5,
           transition: 0s all;
           color: #343a40; }
         .site-navbar .site-navigation .site-menu .has-children .dropdown .active > a {
-          color: #bf00ff !important; }
+          color: #990000 !important; }
         .site-navbar .site-navigation .site-menu .has-children .dropdown > li {
           list-style: none;
           padding: 0;
@@ -437,12 +437,12 @@ h1, h2, h3, h4, h5,
       position: relative;
       color: #212529; }
       .site-mobile-menu .site-nav-wrap a:hover {
-        color: #bf00ff; }
+        color: #990000; }
     .site-mobile-menu .site-nav-wrap li {
       position: relative;
       display: block; }
       .site-mobile-menu .site-nav-wrap li.active > a {
-        color: #bf00ff !important; }
+        color: #990000 !important; }
     .site-mobile-menu .site-nav-wrap .arrow-collapse {
       position: absolute;
       right: 0px;
@@ -458,7 +458,7 @@ h1, h2, h3, h4, h5,
       .site-mobile-menu .site-nav-wrap .arrow-collapse:before {
         font-size: 12px;
         z-index: 20;
-        font-family: "icomoon";
+        font-family: "Arial";
         content: "\f078";
         position: absolute;
         top: 50%;
@@ -522,7 +522,7 @@ h1, h2, h3, h4, h5,
     -webkit-transition: .3s all ease;
     -o-transition: .3s all ease;
     transition: .3s all ease;
-    background: #bf00ff; }
+    background: #990000; }
     .sticky-wrapper .site-navbar .site-logo a {
       color: #000; }
     .sticky-wrapper .site-navbar .site-menu > li {
@@ -554,7 +554,7 @@ h1, h2, h3, h4, h5,
         .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a:hover {
           color: #000; }
         .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a.active:after {
-          background: #bf00ff; }
+          background: #990000; }
       .sticky-wrapper.is-sticky .site-navbar .site-menu > li.active > a {
         color: #000; }
   .sticky-wrapper .shrink {
@@ -606,19 +606,19 @@ h1, h2, h3, h4, h5,
     display: inline-block;
     color: #bdbdbd; }
     .custom-breadcrumns a:hover {
-      color: #bf00ff; }
+      color: #990000; }
   .custom-breadcrumns .current {
-    color: #bf00ff; }
+    color: #990000; }
 
 .section-title-underline {
   color: #000; }
   .section-title-underline span {
     display: inline-block;
-    border-bottom: 4px solid #bf00ff; }
+    border-bottom: 4px solid #990000; }
   .section-title-underline.style-2 {
     color: #fff; }
     .section-title-underline.style-2 span {
-      border-color: #bf00ff; }
+      border-color: #990000; }
 
 .section-bg {
   background-size: cover;
@@ -641,10 +641,10 @@ h1, h2, h3, h4, h5,
       z-index: 2; }
     .section-bg.style-1 .icon {
       font-size: 3.5rem;
-      color: #bf00ff; }
+      color: #990000; }
     .section-bg.style-1 h3 {
       font-size: 20px;
-      color: #bf00ff;
+      color: #990000;
       margin-bottom: 30px; }
     .section-bg.style-1 p {
       color: #7697c6; }
@@ -705,7 +705,7 @@ h1, h2, h3, h4, h5,
       font-weight: bold;
       color: #303030; }
       .news-updates .post-entry-big .post-content .post-heading a:hover {
-        color: #bf00ff; }
+        color: #990000; }
   .news-updates .post-entry-big.horizontal .img-link {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 90px;
@@ -715,7 +715,7 @@ h1, h2, h3, h4, h5,
   display: inline-block;
   width: 40px;
   height: 40px;
-  background: #bf00ff;
+  background: #990000;
   position: relative; }
   .social-wrap a > span {
     position: absolute;
@@ -774,7 +774,7 @@ h1, h2, h3, h4, h5,
       transform: translate(-50%, -50%); }
     .hero-slide .owl-nav .owl-prev:hover,
     .hero-slide .owl-nav .owl-next:hover {
-      background: #bf00ff; }
+      background: #990000; }
       .hero-slide .owl-nav .owl-prev:hover > span,
       .hero-slide .owl-nav .owl-next:hover > span {
         color: #fff; }
@@ -800,7 +800,7 @@ h1, h2, h3, h4, h5,
         margin: 2px 5px;
         background: white; }
       .hero-slide .owl-dots .owl-dot.active > span {
-        background: #bf00ff; }
+        background: #990000; }
 
 .owl-slide-3, .owl-slide {
   position: relative; }
@@ -851,7 +851,7 @@ h1, h2, h3, h4, h5,
         margin: 2px 5px;
         background: rgba(0, 0, 0, 0.2); }
       .owl-slide-3 .owl-dots .owl-dot.active > span, .owl-slide .owl-dots .owl-dot.active > span {
-        background: #bf00ff; }
+        background: #990000; }
 
 .owl-slide .owl-nav {
   display: none; }
@@ -905,7 +905,7 @@ h1, h2, h3, h4, h5,
   .course-1-item figure {
     position: relative; }
   .course-1-item .category {
-    background: #bf00ff;
+    background: #990000;
     padding: 20px; }
     .course-1-item .category h3 {
       color: #fff;
@@ -947,13 +947,13 @@ h1, h2, h3, h4, h5,
     margin-bottom: 30px;
     text-transform: uppercase; }
     .footer .footer-heading > span {
-      border-bottom: 2px solid #bf00ff; }
+      border-bottom: 2px solid #990000; }
   .footer ul li {
     margin-bottom: 10px; }
   .footer a {
     color: #fff; }
     .footer a:hover {
-      color: #bf00ff;
+      color: #990000;
       text-decoration: underline; }
   .footer .copyright {
     color: #fff;
@@ -1115,7 +1115,7 @@ h1, h2, h3, h4, h5,
     right: 10px;
     top: 10px;
     font-weight: 400;
-    font-family: "Oswald", sans-serif;
+    font-family: "Times New Roman", sans-serif;
     color: #dcdcdc; }
   .services-1-wrap .service-1 .service-1-icon {
     position: relative;
@@ -1130,7 +1130,7 @@ h1, h2, h3, h4, h5,
       left: -20px;
       border-top: 40px solid transparent;
       border-bottom: 40px solid transparent;
-      border-right: 40px solid #bf00ff; }
+      border-right: 40px solid #990000; }
     .services-1-wrap .service-1 .service-1-icon > span {
       color: #000;
       font-size: 4rem; }
@@ -1181,7 +1181,7 @@ h1, h2, h3, h4, h5,
 
 .section-subtitle {
   font-weight: 300;
-  color: #bf00ff;
+  color: #990000;
   text-transform: uppercase;
   font-size: 1.3rem; }
 
@@ -1231,8 +1231,8 @@ h1, h2, h3, h4, h5,
     opacity: 0;
     visibility: hidden; }
     .project-item .project-item-contents .project-item-category {
-      color: #bf00ff;
-      font-family: "Oswald", sans-serif;
+      color: #990000;
+      font-family: "Times New Roman", sans-serif;
       text-transform: uppercase; }
     .project-item .project-item-contents .project-item-title {
       color: #fff;
@@ -1260,7 +1260,7 @@ h1, h2, h3, h4, h5,
   text-transform: uppercase;
   font-size: 14px;
   letter-spacing: .2rem;
-  font-family: "Oswald", sans-serif; }
+  font-family: "Times New Roman", sans-serif; }
 
 .quote-form-wrap {
   background: #09162a;
@@ -1311,7 +1311,7 @@ h1, h2, h3, h4, h5,
     .person .person-contents h3 {
       color: #000; }
     .person .person-contents .position {
-      color: #bf00ff; }
+      color: #990000; }
   .person:hover img {
     -webkit-transform: scale(1.05);
     -ms-transform: scale(1.05);
@@ -1351,10 +1351,10 @@ h1, h2, h3, h4, h5,
   font-weight: 700; }
 
 .testimonial .client-name {
-  font-family: "Oswald", sans-serif;
+  font-family: "Times New Roman", sans-serif;
   text-transform: uppercase;
   font-size: 1.2rem;
-  color: #bf00ff; }
+  color: #990000; }
 
 .blog-entry .img-link {
   display: block;
@@ -1382,7 +1382,7 @@ h1, h2, h3, h4, h5,
   .blog-entry .blog-entry-contents .meta, .blog-entry .blog-entry-contents .meta a {
     color: #b0b0b0; }
   .blog-entry .blog-entry-contents .meta a {
-    color: #bf00ff; }
+    color: #990000; }
 
 .block-4 h3 {
   color: #fff;

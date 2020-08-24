@@ -36,6 +36,9 @@ h1, h2, h3, h4, h5,
 .bg-black {
   background: #000 !important; }
 
+  .bg-maroon {
+    background: #900 !important; }
+
 .color-black-opacity-5 {
   color: rgba(0, 0, 0, 0.5); }
 

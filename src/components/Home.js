@@ -20,7 +20,7 @@ function Home() {
     <Container>
       <Navbar />
       <img src={bac11} className="bacimage1" />
-      <Welcome>
+      <Welcome id='1'>
         <div className="welcomecontent">
           <h1 className="welcomehead">Neofinitve Infra</h1>
           <p style={{ width: "431px", fontSize: "20px", marginBottom: "30px" }}>
@@ -32,7 +32,7 @@ function Home() {
         </div>
         <img src={bac22} className="bacimage2" />
       </Welcome>
-      <div className="services0">
+      <div id='2' className="services0">
         <h2 className="serviceshead">Our Services</h2>
         <br />
         <hr className="hr1" />

@@ -3,6 +3,7 @@ import styled from "styled-components";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import logo1 from "../images/logo1.png";
+import $ from "jquery";
 
 function Navbar() {
   const [isMobile, setIsMobile] = useState(false);
@@ -11,8 +12,30 @@ function Navbar() {
     setIsMobile(!isMobile);
   };
 
+  $(document).ready(function () {
+    $(window).scroll(function () {
+      // var x = window.matchMedia("(max-width: 780px)");
+      // if (x.matches) {
+      //   var a = document.querySelector("#navbarscrollback");
+      //   a.style.backgroundColor = "crimson";
+      // }
+
+      if (this.scrollY > 30) {
+        var a = document.querySelector(".navbarbar");
+        if (a) {
+          a.style.backgroundColor = "white";
+        }
+      } else {
+        var a = document.querySelector(".navbarbar");
+        if (a) {
+          a.style.backgroundColor = "transparent";
+        }
+      }
+    });
+  });
+
   return (
-    <Navbar1>
+    <Navbar1 className="navbarbar">
       <img src={logo1} style={{ width: "192px", height: "138px" }} />
       <div style={{ display: "flex" }}>
         <ul className={isMobile ? "navfeat active" : "navfeat"}>
@@ -75,6 +98,9 @@ const Navbar1 = styled.div`
   justify-content: space-between;
   align-items: center;
   padding: 15px 50px;
+  position: fixed;
+  width: 95%;
+  z-index: 1000;
   .navfeat {
     display: flex;
   }
@@ -128,7 +154,7 @@ const Navbar1 = styled.div`
 
     .navfeat {
       position: fixed;
-      top: 19%;
+      top: 16%;
       left: -100%;
       flex-direction: column;
       align-items: center;

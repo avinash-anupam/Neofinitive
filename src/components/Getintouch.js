@@ -10,16 +10,21 @@ function Getintouch() {
   const [company, setcompany] = useState("");
   const [message, setmessage] = useState("");
   return (
-    <Getintouch1 id='4' style={{ backgroundImage: `url(${bac33})` }}>
+    <Getintouch1 id="4" style={{ backgroundImage: `url(${bac33})` }}>
       <div className="getheaddiv">
         <h1 className="gethead">Get in touch</h1>
       </div>
       <div className="contactform">
-        <form>
+        <form
+          action="mailto:contact@neofinitive.co.in"
+          method="POST"
+          enctype="multipart/form-data"
+          name="EmailForm"
+        >
           <TextField
             id="outlined-basic name"
             label="Name"
-            name="uname"
+            name="Name: "
             type="text"
             variant="outlined"
             onChange={(e) => setname(e.target.value)}
@@ -36,6 +41,7 @@ function Getintouch() {
             id="outlined-basic fname"
             label="Email"
             type="email"
+            name="Email: "
             variant="outlined"
             onChange={(e) => setemail(e.target.value)}
             style={{
@@ -50,6 +56,7 @@ function Getintouch() {
             id="outlined-basic fname"
             label="Phone"
             type="tel"
+            name="Phone No:"
             variant="outlined"
             onChange={(e) => setphone(e.target.value)}
             style={{
@@ -65,6 +72,7 @@ function Getintouch() {
             label="Company"
             type="text"
             variant="outlined"
+            name="Company: "
             onChange={(e) => setcompany(e.target.value)}
             style={{
               width: "85%",
@@ -79,6 +87,7 @@ function Getintouch() {
             multiline
             rows={4}
             type="text"
+            name="Message: "
             onChange={(e) => setmessage(e.target.value)}
             style={{
               width: "85%",

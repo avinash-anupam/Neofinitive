@@ -154,7 +154,7 @@ const Navbar1 = styled.div`
 
     .navfeat {
       position: fixed;
-      top: 19%;
+      top: 16%;
       left: -100%;
       flex-direction: column;
       align-items: center;

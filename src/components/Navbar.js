@@ -100,7 +100,7 @@ const Navbar1 = styled.div`
   padding: 15px 50px;
   position: fixed;
   width: 95%;
-  z-index: 100;
+  z-index: 1000;
   .navfeat {
     display: flex;
   }

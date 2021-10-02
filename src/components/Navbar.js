@@ -17,12 +17,12 @@ function Navbar() {
       <div style={{ display: "flex" }}>
         <ul className={isMobile ? "navfeat active" : "navfeat"}>
           <li className="lists">
-            <a href="" className="nav-link">
+            <a href="#1" className="nav-link">
               Home
             </a>
           </li>
           <li className="lists">
-            <a href="" className="nav-link">
+            <a href="#2" className="nav-link">
               Services
             </a>
           </li>
@@ -34,7 +34,7 @@ function Navbar() {
         </ul>
         <ul>
           <li className="lists">
-            <a href="" className="nav-link1">
+            <a href="#4" className="nav-link1">
               Contact Us
             </a>
           </li>

@@ -10,7 +10,7 @@ function Getintouch() {
   const [company, setcompany] = useState("");
   const [message, setmessage] = useState("");
   return (
-    <Getintouch1 style={{ backgroundImage: `url(${bac33})` }}>
+    <Getintouch1 id='4' style={{ backgroundImage: `url(${bac33})` }}>
       <div className="getheaddiv">
         <h1 className="gethead">Get in touch</h1>
       </div>

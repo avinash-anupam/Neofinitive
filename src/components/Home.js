@@ -30,7 +30,7 @@ function Home() {
       <br />
       <Welcome id="1">
         <div className="welcomecontent">
-          <h1 className="welcomehead">Neofinitve Infra</h1>
+          <h1 className="welcomehead">Neofinitive Infra</h1>
           <p style={{ width: "431px", fontSize: "20px", marginBottom: "30px" }}>
             We specialise in construction/erection of telecommunication
             structures and also provide all types of telecom related works and

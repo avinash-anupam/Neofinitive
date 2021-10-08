@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import bac33 from "../images/bac33.png";
+import mapbg from "../images/mapbg.png";
 import TextField from "@mui/material/TextField";
 
 function Getintouch() {
@@ -10,90 +11,89 @@ function Getintouch() {
   const [company, setcompany] = useState("");
   const [message, setmessage] = useState("");
   return (
-    <Getintouch1 id="4" style={{ backgroundImage: `url(${bac33})` }}>
+    <Getintouch1 id="4" style={{ backgroundImage: `url(${mapbg})` }}>
       <div className="getheaddiv">
         <h1 className="gethead">Get in touch</h1>
       </div>
       <div className="contactform">
+        <p style={{ margin: "20px auto", textAlign: "center" }}>
+          Fill out the form and we will contact you with details.
+        </p>
         <form
-          action="mailto:contact@neofinitive.co.in"
+          action="mailto:divvelavishnusai@gmail.com"
           method="POST"
           enctype="multipart/form-data"
           name="EmailForm"
         >
           <TextField
-            id="outlined-basic name"
+            id="standard-basic name"
             label="Name"
             name="Name: "
             type="text"
-            variant="outlined"
+            variant="standard"
             onChange={(e) => setname(e.target.value)}
             style={{
               width: "85%",
               margin: "40px",
               marginTop: "50px",
               marginBottom: "25px",
-              background: "rgba(255, 123, 123, 0.2)",
             }}
             required
           />
           <TextField
-            id="outlined-basic fname"
+            id="standard-basic fname"
             label="Email"
             type="email"
             name="Email: "
-            variant="outlined"
+            variant="standard"
             onChange={(e) => setemail(e.target.value)}
             style={{
               width: "85%",
               margin: "0px 40px",
               marginBottom: "25px",
-              background: "rgba(255, 123, 123, 0.2)",
             }}
             required
           />
           <TextField
-            id="outlined-basic fname"
+            id="standard-basic fname"
             label="Phone"
             type="tel"
             name="Phone No:"
-            variant="outlined"
+            variant="standard"
             onChange={(e) => setphone(e.target.value)}
             style={{
               width: "85%",
               margin: "0px 40px",
               marginBottom: "25px",
-              background: "rgba(255, 123, 123, 0.2)",
             }}
             required
           />
           <TextField
-            id="outlined-basic fname"
+            id="standard-basic fname"
             label="Company"
             type="text"
-            variant="outlined"
+            variant="standard"
             name="Company: "
             onChange={(e) => setcompany(e.target.value)}
             style={{
               width: "85%",
               margin: "0px 40px",
               marginBottom: "25px",
-              background: "rgba(255, 123, 123, 0.2)",
             }}
           />
           <TextField
-            id="outlined-multiline-flexible"
+            id="standard-multiline-flexible"
             label="Message"
             multiline
             rows={4}
             type="text"
             name="Message: "
+            variant="standard"
             onChange={(e) => setmessage(e.target.value)}
             style={{
               width: "85%",
               margin: "0px 40px",
               marginBottom: "25px",
-              background: "rgba(255, 123, 123, 0.2)",
             }}
             required
           />
@@ -113,26 +113,27 @@ const Getintouch1 = styled.div`
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
-  justify-content:space-between;
+  // justify-content:space-between;
   flex-wrap: wrap;
   .gethead {
     background-color: white;
     color: #1938a7;
-    font-size:75px;
+    font-size:100px;
+    font-weight:500;
     text-align:center;
     // padding-left:168px;
     // padding-right:168px;
-    padding-top:50px;
-    padding-bottom:50px;
+    padding-top:20px;
+    padding-bottom:20px;
     margin-top:15%;
   }
   .getheaddiv{
-    flex: 1;
+    flex: 0.8;
   }
   .contactform {
     width: 600px;
-    height: 650px;
-    margin-top:20px;
+    height: 685px;
+    // margin-top:6px;
     margin-right:150px;
     background: white;
     box-shadow: 3.80118px 5.70178px 9.50296px rgba(0, 0, 0, 0.2);
@@ -180,5 +181,10 @@ const Getintouch1 = styled.div`
           margin-top:0;
       }
 
+  }
+  @media screen and (max-width: 1010px) {
+   .getheaddiv{
+     flex:1;
+   } 
   }
 `;

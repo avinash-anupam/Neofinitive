@@ -6,7 +6,7 @@ import logo1 from "../images/logo1.png";
 import $ from "jquery";
 import { Link } from "react-router-dom";
 
-function Navbar() {
+function Navbar2() {
   const [isMobile, setIsMobile] = useState(false);
 
   const clickHandler = () => {
@@ -41,14 +41,14 @@ function Navbar() {
       <div style={{ display: "flex" }}>
         <ul className={isMobile ? "navfeat active" : "navfeat"}>
           <li className="lists">
-            <a href="/#1" className="nav-link2">
+            <Link to="/#1" className="nav-link">
               Home
-            </a>
+            </Link>
           </li>
           <li className="lists">
-            <a href="/#2" className="nav-link">
+            <Link to="/#2" className="nav-link">
               Services
-            </a>
+            </Link>
           </li>
           <li className="lists">
             <Link to="/" className="nav-link">
@@ -56,7 +56,7 @@ function Navbar() {
             </Link>
           </li>
           <li className="lists">
-            <Link to="/team" className="nav-link">
+            <Link to="/team" className="nav-link2">
               Team
             </Link>
           </li>
@@ -96,7 +96,7 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default Navbar2;
 
 const Navbar1 = styled.div`
   background-color: none;
@@ -126,7 +126,6 @@ const Navbar1 = styled.div`
     color: #0096ff;
     text-decoration: none;
     padding: 1rem;
-    padding: 12px 20px;
     transition: all 300ms ease-in-out;
   }
   .nav-link:hover {
@@ -137,7 +136,6 @@ const Navbar1 = styled.div`
   .nav-link1 {
     text-decoration: none;
     padding: 1rem;
-    padding: 10px 18px;
     transition: all 300ms ease-in-out;
     color: white;
     border-radius: 5px;
@@ -153,7 +151,6 @@ const Navbar1 = styled.div`
     color: #1938a7;
     text-decoration: none;
     padding: 1rem;
-    padding: 12px 20px;
     transition: all 300ms ease-in-out;
   }
   .nav-link2:hover {
@@ -162,7 +159,7 @@ const Navbar1 = styled.div`
     background-color: #1938a7;
   }
 
-  @media screen and (max-width: 1160px) {
+  @media screen and (max-width: 1100px) {
     padding: 15px 15px;
     padding-bottom: 0px;
     .log {

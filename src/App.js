@@ -1,7 +1,7 @@
 import "./App.css";
 import Home from "./components/Home";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-
+import Team from "./components/Team";
 function App() {
   return (
     <div>
@@ -9,6 +9,9 @@ function App() {
         <Switch>
           <Route exact path="/">
             <Home />
+          </Route>
+          <Route exact path="/team">
+            <Team />
           </Route>
         </Switch>
       </Router>

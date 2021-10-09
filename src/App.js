@@ -10,9 +10,9 @@ function App() {
           <Route exact path="/">
             <Home />
           </Route>
-          <Route exact path="/team">
+          {/* <Route exact path="/team">
             <Team />
-          </Route>
+          </Route> */}
         </Switch>
       </Router>
     </div>

@@ -55,11 +55,11 @@ function Navbar() {
               About Us
             </Link>
           </li>
-          <li className="lists">
+          {/* <li className="lists">
             <Link to="/team" className="nav-link">
               Team
             </Link>
-          </li>
+          </li> */}
         </ul>
         <ul>
           <li className="lists">
